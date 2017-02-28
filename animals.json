@@ -1,0 +1,18 @@
+[
+    {
+        "name": "cat",
+        "phonetics": ["ck", "a", "t"],
+        "phonetics_times" : [0.3, 0.65, 0.9],
+    },
+    {
+        "name": "elephant",
+        "phonetics": ["e", "le", "ph" "a", "nt"],
+        "phonetics_times" : [0.1, 0.2, 0.4, 0.7, 0.86],
+    }
+]
+
+1. Use the code snippet I sent over email to serialzie the above json file into
+   a list of NSDictionary objects.
+2. For each word, the keys are name, phonetics and phonetics_times.
+3. Use the keys and corresponding values in the GameScene or other applicable
+   swift code.

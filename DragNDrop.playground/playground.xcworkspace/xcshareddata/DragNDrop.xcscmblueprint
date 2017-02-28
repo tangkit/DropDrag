@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96AA53C3F250B6EBEC7CAE6B9033CE9EB0868643",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96AA53C3F250B6EBEC7CAE6B9033CE9EB0868643" : 0,
+    "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA425C24-C988-430D-AD2E-117E8FC979B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96AA53C3F250B6EBEC7CAE6B9033CE9EB0868643" : "DragDrop\/",
+    "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DragNDrop",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DragNDrop.playground",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangkit\/DropDrag.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96AA53C3F250B6EBEC7CAE6B9033CE9EB0868643"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tangkit\/JackTheGiant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CF5B26D7BE74D3224EF073EB6AE8178841A49B7C"
+    }
+  ]
+}

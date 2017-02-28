@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBA811881E06D35F00DB92F5 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA811871E06D35F00DB92F5 /* Array+Shuffle.swift */; };
+		FBA8118C1E12BCB800DB92F5 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBA811891E12BCB800DB92F5 /* a.mp3 */; };
+		FBA8118D1E12BCB800DB92F5 /* ck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBA8118A1E12BCB800DB92F5 /* ck.mp3 */; };
+		FBA8118E1E12BCB800DB92F5 /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBA8118B1E12BCB800DB92F5 /* t.mp3 */; };
 		FBD0B8111DB3A81B001DFFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0B8101DB3A81B001DFFF4 /* AppDelegate.swift */; };
 		FBD0B8131DB3A81B001DFFF4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBD0B8121DB3A81B001DFFF4 /* GameScene.sks */; };
 		FBD0B8151DB3A81B001DFFF4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0B8141DB3A81B001DFFF4 /* GameScene.swift */; };
@@ -16,6 +20,7 @@
 		FBD0B81F1DB3A81B001DFFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD0B81D1DB3A81B001DFFF4 /* LaunchScreen.storyboard */; };
 		FBD0B82A1DB3A81B001DFFF4 /* DragDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0B8291DB3A81B001DFFF4 /* DragDropTests.swift */; };
 		FBD0B8351DB3A81B001DFFF4 /* DragDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD0B8341DB3A81B001DFFF4 /* DragDropUITests.swift */; };
+		FBD1D5BC1E3A5222003C6EC5 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = FBD1D5BB1E3A5222003C6EC5 /* animals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBA811871E06D35F00DB92F5 /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
+		FBA811891E12BCB800DB92F5 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		FBA8118A1E12BCB800DB92F5 /* ck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ck.mp3; sourceTree = "<group>"; };
+		FBA8118B1E12BCB800DB92F5 /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t.mp3; sourceTree = "<group>"; };
 		FBD0B80D1DB3A81B001DFFF4 /* DragDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD0B8101DB3A81B001DFFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD0B8121DB3A81B001DFFF4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		FBD0B8301DB3A81B001DFFF4 /* DragDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD0B8341DB3A81B001DFFF4 /* DragDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropUITests.swift; sourceTree = "<group>"; };
 		FBD0B8361DB3A81B001DFFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD1D5BB1E3A5222003C6EC5 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +111,19 @@
 		FBD0B80F1DB3A81B001DFFF4 /* DragDrop */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1D5BB1E3A5222003C6EC5 /* animals.json */,
 				FBD0B8101DB3A81B001DFFF4 /* AppDelegate.swift */,
 				FBD0B8121DB3A81B001DFFF4 /* GameScene.sks */,
 				FBD0B8141DB3A81B001DFFF4 /* GameScene.swift */,
 				FBD0B8161DB3A81B001DFFF4 /* GameViewController.swift */,
-				FBD0B8181DB3A81B001DFFF4 /* Main.storyboard */,
 				FBD0B81B1DB3A81B001DFFF4 /* Assets.xcassets */,
+				FBD0B8181DB3A81B001DFFF4 /* Main.storyboard */,
+				FBA811891E12BCB800DB92F5 /* a.mp3 */,
+				FBA8118A1E12BCB800DB92F5 /* ck.mp3 */,
+				FBA8118B1E12BCB800DB92F5 /* t.mp3 */,
 				FBD0B81D1DB3A81B001DFFF4 /* LaunchScreen.storyboard */,
 				FBD0B8201DB3A81B001DFFF4 /* Info.plist */,
+				FBA811871E06D35F00DB92F5 /* Array+Shuffle.swift */,
 			);
 			path = DragDrop;
 			sourceTree = "<group>";
@@ -194,18 +209,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Tang Kit";
 				TargetAttributes = {
 					FBD0B80C1DB3A81B001DFFF4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3RWRHD79C8;
+						LastSwiftMigration = 0820;
 					};
 					FBD0B8241DB3A81B001DFFF4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = FBD0B80C1DB3A81B001DFFF4;
 					};
 					FBD0B82F1DB3A81B001DFFF4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = FBD0B80C1DB3A81B001DFFF4;
 					};
 				};
@@ -235,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA8118E1E12BCB800DB92F5 /* t.mp3 in Resources */,
+				FBD1D5BC1E3A5222003C6EC5 /* animals.json in Resources */,
 				FBD0B8131DB3A81B001DFFF4 /* GameScene.sks in Resources */,
 				FBD0B81F1DB3A81B001DFFF4 /* LaunchScreen.storyboard in Resources */,
+				FBA8118D1E12BCB800DB92F5 /* ck.mp3 in Resources */,
 				FBD0B81C1DB3A81B001DFFF4 /* Assets.xcassets in Resources */,
+				FBA8118C1E12BCB800DB92F5 /* a.mp3 in Resources */,
 				FBD0B81A1DB3A81B001DFFF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD0B8151DB3A81B001DFFF4 /* GameScene.swift in Sources */,
+				FBA811881E06D35F00DB92F5 /* Array+Shuffle.swift in Sources */,
 				FBD0B8171DB3A81B001DFFF4 /* GameViewController.swift in Sources */,
 				FBD0B8111DB3A81B001DFFF4 /* AppDelegate.swift in Sources */,
 			);
@@ -334,8 +358,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -379,8 +405,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -399,6 +427,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -407,10 +436,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RWRHD79C8;
 				INFOPLIST_FILE = DragDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,10 +449,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3RWRHD79C8;
 				INFOPLIST_FILE = DragDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDrop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDropTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
 			};
 			name = Debug;
@@ -446,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDropTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DragDrop.app/DragDrop";
 			};
 			name = Release;
@@ -458,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDropUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DragDrop;
 			};
 			name = Debug;
@@ -469,6 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangkit.DragDropUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = DragDrop;
 			};
 			name = Release;
@@ -492,6 +529,7 @@
 				FBD0B83B1DB3A81B001DFFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD0B83C1DB3A81B001DFFF4 /* Build configuration list for PBXNativeTarget "DragDropTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +538,7 @@
 				FBD0B83E1DB3A81B001DFFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD0B83F1DB3A81B001DFFF4 /* Build configuration list for PBXNativeTarget "DragDropUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +547,7 @@
 				FBD0B8411DB3A81B001DFFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
